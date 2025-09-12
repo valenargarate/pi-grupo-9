@@ -1,0 +1,20 @@
+/* header */
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo{
+    border-radius: 180px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;   
+    height: auto;
+}
+
+.LyR a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
