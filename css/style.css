@@ -5,6 +5,16 @@ a, ul{
     text-decoration: none;
     color: black;
 }
+
+.topbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: lightgray;
+    border-radius: 15px;
+
+}
+
 .logo1{
     display: flex;
     flex-wrap: wrap;
@@ -15,10 +25,38 @@ a, ul{
     border-radius: 180px;
     display: block;
     margin: 0 auto;
-    width: 100px;   
+    width: 80px;   
     height: auto;
+}
+
+.topnav{
+    width: 100%;
+}
+
+.menu{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .LyR{
     margin-right: 20px;
+}
+
+.search{
+    display: flex;
+    
+}
+
+.buscador{
+    margin-right: 10px;
+    min-width: 220px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+.buscador1{
+    border-radius: 10px;
+    border: solid 1px gray;
 }
