@@ -61,6 +61,11 @@ a, ul{
 .buscador1{
     border-radius: 10px;
     border: solid 1px #8A785E;
+    background-color: #8A785E;
+}
+
+.search{
+    border: #8A785E;
 }
 
 /* footer */
@@ -82,14 +87,14 @@ footer a{
     color: white;
 }
 
-/* form registro */
+/* form registro y Log In*/
 
-.form-registro{
-    max-width: 400px; /* ancho del formulario */
-    margin: 60px auto; /* margen superior e inferior y centrado horizontal */
+.form-registro, .form-login{
+    max-width: 400px; 
+    margin: 60px auto; 
     padding: 20px;
 }
-.tituloregistro{
+.tituloregistro, .titulologin{
     text-align: center;
 }
 
@@ -102,9 +107,9 @@ footer a{
     margin: auto;
 }
 
-.botonregistro{
+.botonregistro, .botoningresar{
     background-color: rgba(191, 172, 147, 0.5);
-    border: #8A785E;
+    border: none;
     padding: 5px;
 }
 
@@ -112,3 +117,4 @@ footer a{
     font-weight: bold;
     
 }
+
