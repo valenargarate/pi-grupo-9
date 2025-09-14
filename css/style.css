@@ -1,3 +1,7 @@
+* {
+     font-family: 'Playfair Display', serif;
+}
+
 /* header */
 
 a, ul{
@@ -10,7 +14,7 @@ a, ul{
     display: flex;
     align-items: center;
     padding: 10px;
-    background: lightgray;
+    background-color: #BFAC93;
     border-radius: 15px;
 }
 
@@ -51,10 +55,60 @@ a, ul{
     min-width: 220px;
     padding: 6px;
     border-radius: 10px;
-    border: solid 1px gray;
+    border: solid 1px #8A785E;
 }
 
 .buscador1{
     border-radius: 10px;
-    border: solid 1px gray;
+    border: solid 1px #8A785E;
+}
+
+/* footer */
+footer{
+    background: transparent;
+    font-weight: bold;
+}
+
+.footer1{
+    max-width: 1200px;
+    padding: 15px 16px;
+    background: #BFAC93;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+}
+
+footer a{
+    color: white;
+}
+
+/* form registro */
+
+.form-registro{
+    max-width: 400px; /* ancho del formulario */
+    margin: 60px auto; /* margen superior e inferior y centrado horizontal */
+    padding: 20px;
+}
+.tituloregistro{
+    text-align: center;
+}
+
+.form-ingreso{
+    background-color: rgba(191, 172, 147, 0.5);
+    padding: 30px;
+    border: 1px solid none;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+}
+
+.botonregistro{
+    background-color: rgba(191, 172, 147, 0.5);
+    border: #8A785E;
+    padding: 5px;
+}
+
+.btn{
+    font-weight: bold;
+    
 }

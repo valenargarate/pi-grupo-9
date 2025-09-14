@@ -11,7 +11,7 @@
 
      <header class="topbar">  
         <div class="logo1">
-            <a href="./1.index.html"><img class="logo" src="./IMG/LOGO.png" alt="logo"></a>
+            <a href="./1.index.html"><img class="logo" src="./IMG/logo2.png" alt="logo"></a>
                 
         </div>
 
@@ -28,31 +28,56 @@
             <button class="buscador1" type="submit">Buscar</button>
         </form>
     </header>
+
     <main class="form-registro">
+
         <form class="form-ingreso" action="./1.index.html">
-            <h1>Crear cuenta</h1>
+
+            <h1 class="tituloregistro">Crear cuenta</h1>
+
             <div>
                 <label for="remail">Email</label>
-                <input name="email" type="email" value="">
+                <input name="email" type="email" value="" required>
             </div>
+
+            <br>
+
             <div>
                 <label for="rpass">Contraseña</label>
-                <input name="password" type="password">
+                <input name="password" type="password" value="" required>
             </div>
+
+            <br>
+
             <div>
+
                 <label for="rpass2">Repetir contraseña</label>
-                <input name="password2" type="password">
+                <input name="password2" type="password" value="" required>
             </div>
-            <div class="row" style="justify-content:flex-start">
-                <input id="terms" type="checkbox" required>
-                <label for="terms">Acepto términos y condiciones</label>
-            </div>
-            <button type="submit">Registrarme</button>
+
+            <br>
+            
+            <button class="botonregistro" type="submit">REGISTRARME</button>
+
+            <br>
+            <br>
+
             <div class="row">
-                <span class="hint">¿Ya tenés cuenta?</span>
+                <span class="hint">¿Ya tenés cuenta?</span> 
                 <a class="btn" href="./5.login.html">Ir a Login</a>
             </div>
+
         </form>
     </main>
+
+    <footer class="footer">
+            <div class="footer1">
+                <nav class="piso">
+                    <a href="#">Lucia Bergallo</a> |
+                    <a href="#">Valentina Argarate</a> |
+                    <a href="#">Felicitas Lynch</a> 
+                </nav>
+            </div>
+        </footer>
 </body>
 </html>
