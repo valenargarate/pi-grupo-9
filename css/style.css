@@ -111,7 +111,7 @@ footer{
 }
 
 .form-ingreso{
-    background-color: rgba(191, 172, 147, 0.5);
+    background-color: #BFAC93;
     padding: 30px;
     border: 1px solid none;
     border-radius: 5px;
@@ -120,7 +120,7 @@ footer{
 }
 
 .botonregistro, .botoningresar{
-    background-color: rgba(191, 172, 147, 0.5);
+    background-color: #8A785E;
     border: none;
     padding: 5px;
 }
