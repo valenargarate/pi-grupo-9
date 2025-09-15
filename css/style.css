@@ -101,6 +101,8 @@ footer{
 .form{
     background-image: url(../IMG/foto\ BANNER.jpg);
 }
+
+
 .form-registro, .form-login{
     max-width: 400px; 
     margin: 60px auto; 
