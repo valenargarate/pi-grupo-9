@@ -70,8 +70,12 @@ a, ul{
 
 /* footer */
 footer{
-    background: transparent;
-    font-weight: bold;
+    bottom: 0;          
+  left: 0;           
+  width: 100%;       
+  background: #BFAC93; 
+  text-align: center; 
+  padding: 10px;
 }
 
 .footer1{
@@ -83,12 +87,20 @@ footer{
     border-radius: 16px;
 }
 
-footer a{
+.textofooter1{
     color: white;
+    font-weight: bold;
+}
+
+.textofooter2{
+    color: white;
+    font-weight: lighter;
 }
 
 /* form registro y Log In*/
-
+.form{
+    background-image: url(../IMG/foto\ BANNER.jpg);
+}
 .form-registro, .form-login{
     max-width: 400px; 
     margin: 60px auto; 
