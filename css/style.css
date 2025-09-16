@@ -1,9 +1,12 @@
 * {
      font-family: 'Playfair Display', serif;
-}
+   
+    }
 
 /* header */
-
+body{
+    background-color: #e8ded1;
+}
 a, ul{
     list-style: none;
     text-decoration: none;
@@ -131,4 +134,29 @@ footer{
     font-weight: bold;
 }
 
-/* productos */
+/* productos index */
+.productosaleatorios{
+    width: 25%;
+}
+
+.aside{
+    width: 20%;
+}
+
+.velasIndex{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.velas{
+    border: 1px solid #BFAC93 ;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ece8e2;
+}
+
+
