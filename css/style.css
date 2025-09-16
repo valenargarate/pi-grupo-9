@@ -74,15 +74,15 @@ a, ul{
 /* footer */
 footer{
     bottom: 0;          
-  left: 0;           
-  width: 100%;       
-  background: #BFAC93; 
-  text-align: center; 
-  padding: 10px;
+    left: 0;           
+    width: 100%;       
+    background: #BFAC93; 
+    text-align: center; 
+    padding: 10px;
 }
 
 .footer1{
-    max-width: 1200px;
+    max-width: 100%;
     padding: 15px 16px;
     background: #BFAC93;
     color: white;
@@ -135,28 +135,77 @@ footer{
 }
 
 /* productos index */
+main{
+    display: flex;
+    align-items: flex-start;   /* alinea arriba ambas columnas */
+    flex-wrap: nowrap;
+    padding: 15px;
+    justify-content: space-evenly;
+}
 .productosaleatorios{
-    width: 25%;
+    width: 76%;
+}
+.productosaleatorios h1{
+    margin: 20px;
 }
 
 .aside{
     width: 20%;
+    border: 1px solid #BFAC93;
+    border-radius: 10px;
+}
+.aside h2{
+    margin: 20px;
+    margin-left: 2px;
+}
+
+.aside ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.categorias{
+    padding: 5px;
 }
 
 .velasIndex{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
 }
 
 .velas{
-    border: 1px solid #BFAC93 ;
+    border: 1px solid #BFAC93;
     border-radius: 10px;
-    padding: 12px;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 14px;
     background: #ece8e2;
+    width: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
 
+.velas img{
+    width: 200px;
+}
+
+.velas div{
+    margin-top: auto;
+    font-weight: bold;
+}
+
+.velas a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #d3c0a6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
 
