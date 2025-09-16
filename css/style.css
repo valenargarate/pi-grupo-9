@@ -18,7 +18,7 @@ a, ul{
     align-items: center;
     padding: 10px;
     background-color: #BFAC93;
-    border-radius: 15px;
+    max-width: 100%;
 }
 
 .logo1{
@@ -195,6 +195,17 @@ main{
 .velas div{
     margin-top: auto;
     font-weight: bold;
+    text-align: center;
+    color: #8A785E;
+}
+
+.velas h4{
+    text-align: center;
+    color: #8A785E;
+}
+
+.velas p{
+    text-align: center;
 }
 
 .velas a{
