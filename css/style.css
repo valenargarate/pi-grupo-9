@@ -18,7 +18,7 @@ a, ul{
     align-items: center;
     padding: 10px;
     background-color: #BFAC93;
-    max-width: 100%;
+    width: 100%;
 }
 
 .logo1{
@@ -72,9 +72,7 @@ a, ul{
 }
 
 /* footer */
-footer{
-    bottom: 0;          
-    left: 0;           
+footer{                   
     width: 100%;       
     background: #BFAC93; 
     text-align: center; 
@@ -83,7 +81,7 @@ footer{
 
 .footer1{
     max-width: 100%;
-    padding: 15px 16px;
+    padding: 15px 15px;
     background: #BFAC93;
     color: white;
     text-align: center;
@@ -137,7 +135,7 @@ footer{
 /* productos index */
 main{
     display: flex;
-    align-items: flex-start;   /* alinea arriba ambas columnas */
+    align-items: flex-start;   
     flex-wrap: nowrap;
     padding: 15px;
     justify-content: space-evenly;
@@ -220,3 +218,25 @@ main{
     text-align: center;
 }
 
+/* producto */
+.producto{
+    padding: 10px 165px;
+
+
+}
+.velaalma{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #BFAC93;
+    border-radius: 12px;
+    background: #f3ece3;        
+    padding: 16px;
+
+}
+.velaalma img{
+    max-width: 450px; 
+    border-radius: 8px;
+}
+.info{
+    margin-left: 24px;
+}
