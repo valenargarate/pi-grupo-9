@@ -23,12 +23,6 @@ a, ul{
     width: 100%;
 }
 
-.logo1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
 .logo{
     border-radius: 180px;
     display: block;
@@ -37,45 +31,53 @@ a, ul{
     height: auto;
 }
 
-.topnav{
-    width: 100%;
+.logo1{
+    display: flex;
+    align-items: center;
 }
 
 .menu{
-    width: 20%;
     display: flex;
-    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
-.menu2{
-    width: 100%;
+
+.menulyr{
     display: flex;
     justify-content: space-evenly;
-    padding-left: 20px;
 }
-
-
-.search{
-    display: flex;
-    width: 100%;
+.menulyr, .menu li{
+    margin-left: 15px;
 }
 
 .buscador{
-    margin-right: 10px;
-    min-width: 220px;
-    padding: 6px;
-    border-radius: 10px;
-    border: solid 1px #8A785E;
+    display: flex;
+    justify-content: center;
+    width: 420px;
 }
 
-.buscador1{
+.searchinput{
+    padding: 6px 10px;
     border-radius: 10px;
     border: solid 1px #8A785E;
-    background-color: #8A785E;
+    width: 300px;
+}
+.searchbutton{
+    padding: 6px 15px;
+    border: none;
+    background-color: #5a4630;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
 }
 
 .search{
-    border: #8A785E;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
+
 
 /* footer */
 footer{                   
@@ -231,8 +233,6 @@ main{
 /* producto */
 .producto{
     padding: 10px 165px;
-
-
 }
 .velaalma{
     display: flex;
