@@ -6,6 +6,7 @@
 /* header */
 body{
     background-color: #e8ded1;
+    max-width: 1414px;
 }
 a, ul{
     list-style: none;
@@ -16,7 +17,8 @@ a, ul{
 .topbar{
     display: flex;
     align-items: center;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 20px;
     background-color: #BFAC93;
     width: 100%;
 }
@@ -44,13 +46,17 @@ a, ul{
     display: flex;
     justify-content: space-between;
 }
-
-.LyR{
-    margin-right: 20px;
+.menu2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
 }
+
 
 .search{
     display: flex;
+    width: 100%;
 }
 
 .buscador{
@@ -103,7 +109,9 @@ footer{
     background-image: url(../IMG/foto\ BANNER.jpg);
 }
 
-
+.formEspacio{
+    border-radius: 3px;
+}
 .form-registro, .form-login{
     max-width: 400px; 
     margin: 60px auto; 
@@ -154,12 +162,13 @@ main{
 }
 .aside h2{
     margin: 20px;
-    margin-left: 2px;
+    
 }
 
 .aside ul{
     list-style: none;
     padding: 0px;
+    margin: 20px;
 }
 
 .categorias{
@@ -179,7 +188,7 @@ main{
     border-radius: 10px;
     padding: 14px;
     background: #ece8e2;
-    width: 200px;
+    width: 150px;
     margin: 15px;
     display: flex;
     flex-direction: column;
@@ -187,7 +196,8 @@ main{
 }
 
 .velas img{
-    width: 200px;
+    width: 150px;
+    border-radius: 3px;
 }
 
 .velas div{
