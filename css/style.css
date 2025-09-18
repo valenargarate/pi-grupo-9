@@ -43,6 +43,14 @@ a, ul{
     padding: 0px;
 }
 
+.top-right{
+  margin-left: auto;            
+  display:flex;
+  align-items:center;
+  gap: 18px;                    
+  margin-right: 10px;
+}
+
 .menulyr{
     display: flex;
     justify-content: space-evenly;
@@ -50,6 +58,7 @@ a, ul{
 .menulyr, .menu li{
     margin-left: 15px;
 }
+
 
 .buscador{
     display: flex;
@@ -62,7 +71,9 @@ a, ul{
     border-radius: 10px;
     border: solid 1px #8A785E;
     width: 300px;
+
 }
+
 .searchbutton{
     padding: 6px 15px;
     border: none;
@@ -73,11 +84,10 @@ a, ul{
 }
 
 .search{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    display:flex;
+    width: 100%;                  
+    justify-content: space-evenly;  
 }
-
 
 /* footer */
 footer{                   
@@ -386,3 +396,24 @@ main{
     width: 100%;
 }
 
+/* resultados */
+
+.velap{
+    margin: 20px;
+}
+
+.velasaromaticas{
+    width: 76%;
+}
+
+.velasAromaticas {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+}
+
+.hint {
+    margin: 20px;
+}
