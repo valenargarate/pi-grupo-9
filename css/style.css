@@ -254,6 +254,8 @@ main{
 
 
 
+
+
 .velasIndex2{
     list-style: none;
     display: flex;
@@ -365,6 +367,8 @@ main{
     background: #f3ece3;        
     padding: 16px;
     margin-top: 20px; 
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .fecha{
@@ -379,6 +383,15 @@ main{
 
 .estrellas{
     color: gold;
+}
+
+.botoncomentario, .boxcomentario{
+    border-radius: 20px;
+    border: none;
+}
+
+.botoncomentario{
+    background-color: #d3c0a6;
 }
 
 /* category */
