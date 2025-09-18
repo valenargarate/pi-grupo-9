@@ -305,4 +305,18 @@ main{
     color: gold;
 }
 
+/* category */
+.velasaromaticas{
+    width: 76%;
+}
+.velasaromaticas h1{
+    margin: 20px;
+}
+.velasAromaticas{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+}
 
