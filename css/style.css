@@ -113,6 +113,7 @@ footer{
 
 .formEspacio{
     border-radius: 3px;
+    border-color: #5a4630;
 }
 .form-registro, .form-login{
     max-width: 400px; 
@@ -126,7 +127,7 @@ footer{
 .form-ingreso{
     background-color: #BFAC93;
     padding: 30px;
-    border: 1px solid none;
+    border: 1px solid #5a4630;
     border-radius: 5px;
     width: 300px;
     margin: auto;
@@ -232,6 +233,8 @@ main{
 
 /* producto */
 .producto{
+    display: flex;
+    flex-direction: column;
     padding: 10px 165px;
 }
 .velaalma{
@@ -246,7 +249,60 @@ main{
 .velaalma img{
     max-width: 450px; 
     border-radius: 8px;
+    justify-content: center;
 }
 .info{
     margin-left: 24px;
 }
+
+.valor{
+    font-weight: bold;
+}
+
+.velaalma .info ul.tags li {
+    display: inline-block;
+    list-style: none;
+    padding: 4px;
+    margin: 0;
+    background-color:#BFAC93;
+    border-radius: 12px; 
+}
+
+.tituloproductoALMA{
+    text-align: center;
+}
+
+.precioALMA{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.stockALMA{
+    text-align: center;
+}
+
+.reviews{
+    display: block; 
+    border: 1px solid #BFAC93;
+    border-radius: 12px;
+    background: #f3ece3;        
+    padding: 16px;
+    margin-top: 20px; 
+}
+
+.fecha{
+    color: hsla(0, 0%, 0%, 0.5);
+    text-align: end;
+    font-size: small;
+}
+
+.opinion{
+    font-style: italic;
+}
+
+.estrellas{
+    color: gold;
+}
+
+
