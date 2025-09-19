@@ -1,5 +1,6 @@
 * {
     font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -213,6 +214,7 @@ main{
     flex-wrap: wrap;
     padding: 0px;
     width: 100%;
+    justify-content: space-around;
 }
 
 .velas{
@@ -220,15 +222,15 @@ main{
     border-radius: 10px;
     padding: 14px;
     background: #ece8e2;
-    width: 150px;
-    margin: 15px;
+    width: 17%;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
 
 }
 
 .velas img{
-    width: 150px;
+    width: 100%;
     border-radius: 3px;
 }
 
@@ -283,6 +285,7 @@ main{
     flex-wrap: wrap;
     padding: 0px;
     width: 100%;
+    justify-content: space-around;
 }
 
 .velas2{
@@ -290,7 +293,7 @@ main{
     border-radius: 10px;
     padding: 14px;
     background: #ece8e2;
-    max-width: 290px;
+    width: 30%;
     margin: 15px;
     display: flex;
     flex-direction: column;
