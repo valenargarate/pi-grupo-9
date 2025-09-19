@@ -455,3 +455,18 @@ main{
 .hint {
     margin: 20px;
 }
+
+/* telefono 420px */
+@media (max-width: 420px){
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #header{
+        height: 250px;
+    }
+
+    
+
+}
