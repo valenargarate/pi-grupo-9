@@ -112,6 +112,19 @@ footer{
 .textofooter2{
     color: white;
     font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.mapa{
+    width: 100px;
+    height: 80px;
+    border-color: #5a4630;
+    
+}
+
+.titulomapa{
+    color: white;
+    margin-top: 5px;
 }
 
 /* form registro y Log In*/
@@ -165,7 +178,7 @@ main{
 .aleatorio h1, .destacados h1{
     margin: 20px;
     border: 1px solid #BFAC93;
-    background-color: #d3c0a6;
+    background-color: #BFAC93;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
@@ -241,6 +254,10 @@ main{
     text-decoration: none;
     border-radius: 4px;
     font-size: 14px;
+    text-align: center;
+}
+
+.categoriasaside{
     text-align: center;
 }
 
