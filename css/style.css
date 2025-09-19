@@ -6,7 +6,7 @@
 /* header */
 body{
    background-color: #e8ded1;
-   max-width: 1414px;
+   max-width: 100%;
 }
 a, ul{
    list-style: none;
@@ -134,11 +134,14 @@ footer{
 
 .formEspacio{
     border-radius: 3px;
-    border-color: #5a4630;
+    border: 1px solid #5a4630;
+    width: 100%;
+    padding: 5px;
 }
 .form-registro, .form-login{
-    max-width: 400px; 
-    margin: 60px auto; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0px 60px 0px;
     padding: 20px;
 }
 .tituloregistro, .titulologin{
@@ -151,7 +154,6 @@ footer{
     border: 1px solid #5a4630;
     border-radius: 5px;
     width: 300px;
-    margin: auto;
 }
 
 .botonregistro, .botoningresar{
@@ -162,6 +164,27 @@ footer{
 
 .btn{
     font-weight: bold;
+}
+
+/* aside*/
+.aside{
+    width: 20%;
+    border: 1px solid #BFAC93;
+    border-radius: 10px;
+    margin: 20px;
+}
+.aside h2{
+    margin: 20px;
+}
+
+.aside ul{
+    list-style: none;
+    padding: 0px;
+    margin: 20px;
+}
+
+.categorias{
+    padding: 15px;
 }
 
 /* productos index */
@@ -184,25 +207,6 @@ main{
     padding: 10px;
 }
 
-.aside{
-    width: 20%;
-    border: 1px solid #BFAC93;
-    border-radius: 10px;
-    margin: 20px;
-}
-.aside h2{
-    margin: 20px;
-}
-
-.aside ul{
-    list-style: none;
-    padding: 0px;
-    margin: 20px;
-}
-
-.categorias{
-    padding: 10px;
-}
 
 .velasIndex1{
     list-style: none;
@@ -257,9 +261,6 @@ main{
     text-align: center;
 }
 
-.categoriasaside{
-    text-align: center;
-}
 
 
 
