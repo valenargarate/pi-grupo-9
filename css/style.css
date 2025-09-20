@@ -266,20 +266,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .velasIndex2{
     list-style: none;
     display: flex;
@@ -420,20 +406,108 @@ footer{
     background-color: #d3c0a6;
 }
 
-
-
-
 /* telefono 420px */
 @media (max-width: 420px){
 
-    .menu ul{
-        flex-direction: column;
-    }
+  /* Header */
+  .topbar{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo{ 
+    width: 64px; 
+}
+  .logo1{ 
+    flex-direction: column; 
+    align-items: center; 
+}
+  .logo1 .menu{ 
+    margin: 6px 0 0 0; 
+}
+  .logo1 .menu li{ 
+    margin: 0 8px; 
+}
 
-    #header{
-        height: 250px;
-    }
+  /* Buscador */
+  .buscador{ 
+    width: 100%; 
+    margin: 8px 0; 
+}
+  .search{ 
+    width: 92%; 
+    margin: 0 auto; 
+}
+  .searchinput{ 
+    width: 100%; }
 
-    
+  .searchbutton{ 
+    width: auto; 
+    padding: 8px 12px; }
+
+  /* Login/Registro abajo del header */
+  .menulyr{ 
+    margin-top: 6px; 
+}
+  .menulyr .menu{ 
+    justify-content: center; 
+}
+  .menulyr .menu li{ 
+    margin: 0 8px; 
+}
+
+  /* Listado de productos */
+  .productosaleatorios{ 
+    width: 100%; 
+}
+
+  .aleatorio h1,.destacados h1{
+    margin: 12px 0;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .velasIndex1{ 
+    justify-content: space-between; 
+}
+  .velas{
+    width: 48%;
+    margin-bottom: 10px;          
+    padding: 10px;
+  }
+
+  .velas img{ 
+    width: 100%; 
+    height: auto; 
+}
+  .velas p{ 
+    font-size: 13px;
+}
+  .destacados{ 
+    padding: 0 10px; 
+}
+
+  .velasIndex2{ 
+    display: block; 
+    padding: 0;
+  }
+
+  .velas2{
+    width: 100% !important;
+    margin: 10px 0 !important;
+    padding: 10px;
+  }
+
+  /* Imagen */
+  .velas2 img{
+    width: 100%;
+    height: auto;          
+    border-radius: 3px;
+  }
 
 }
+
+
+
+
+
