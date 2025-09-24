@@ -417,49 +417,51 @@ footer{
   }
   .logo{ 
     width: 64px; 
-}
+  }
   .logo1{ 
     flex-direction: column; 
     align-items: center; 
-}
+  }
   .logo1 .menu{ 
     margin: 6px 0 0 0; 
-}
+    }
   .logo1 .menu li{ 
     margin: 0 8px; 
-}
+    }
 
   /* Buscador */
   .buscador{ 
     width: 100%; 
     margin: 8px 0; 
-}
+    }
   .search{ 
     width: 92%; 
     margin: 0 auto; 
-}
+    }
   .searchinput{ 
-    width: 100%; }
+    width: 100%; 
+    }
 
   .searchbutton{ 
     width: auto; 
-    padding: 8px 12px; }
+    padding: 8px 12px; 
+    }
 
   /* Login/Registro abajo del header */
   .menulyr{ 
     margin-top: 6px; 
-}
+    }
   .menulyr .menu{ 
     justify-content: center; 
-}
+    }
   .menulyr .menu li{ 
     margin: 0 8px; 
-}
+    }
 
   /* Listado de productos */
   .productosaleatorios{ 
     width: 100%; 
-}
+    }
 
   .aleatorio h1,.destacados h1{
     margin: 12px 0;
@@ -469,7 +471,7 @@ footer{
 
   .velasIndex1{ 
     justify-content: space-between; 
-}
+    }
   .velas{
     width: 48%;
     margin-bottom: 10px;          
@@ -479,82 +481,82 @@ footer{
   .velas img{ 
     width: 100%; 
     height: auto; 
-}
+    }
   .velas p{ 
     font-size: 13px;
-}
+    }
   .destacados{ 
     padding: 0 10px; 
-}
+    }
 
   .velasIndex2{ 
     display: block; 
     padding: 0;
-  }
+    }
 
   .velas2{
     width: 100%;
     margin: 10px 0;
     padding: 10px;
-  }
+    }
 
   /* Imagen */
   .velas2 img{
     width: 100%;
     height: auto;          
     border-radius: 3px;
-  }
+    }
 
-/* producto*/
-.producto{
+  /* producto*/
+    .producto{
     padding: 10px 14px;
-}
-.velaalma{
+    }
+
+    .velaalma{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12px;
-}
+    }
 
-.velaalma img{
+    .velaalma img{
     max-width: 450px;
     border-radius: 8px;
     justify-content: center;
     height: auto;
     width: 100%;
 
-}
+    }
 
-.info{
+   .info{
     margin-left: 0;
     width: 100%;
-}
-.tituloproductoALMA{
-    font-size: 20px;
-}
-.precioALMA{
-    font-size: 32px;
-}
-.reviews{
+    }
+   .tituloproductoALMA{
+        font-size: 20px;
+    }
+   .precioALMA{
+        font-size: 32px;
+    }
+   .reviews{
     padding: 12px;
-}
-.review-form{
+    }
+   .review-form{
     display: flex;
     flex-direction: column;
-}
-.boxcomentario{
+    }
+   .boxcomentario{
     width: 100%;
-    margin: 0 0 px 0;
-}
-.botoncomentario{
+    margin: 0 0px 0;
+  }
+   .botoncomentario{
     width: 100%;
     margin: 0;
-}
+    }
 
-/* Main */
-  .main{
+  /* Main */
+   .main{
     flex-direction: column;
-    align-items: stretch;
     padding: 10px;
   }
 
@@ -563,34 +565,56 @@ footer{
     width: 100%;
     margin: 0 0 10px 0;
   }
-  .aside h2{ margin: 12px; }
-  .aside ul{ margin: 8px 12px 12px; }
-  .categorias{ padding: 10px; }
+  .aside h2{ 
+    margin: 12px; 
+    }
+  .aside ul{ 
+    margin: 8px 12px 12px; 
+    }
+  .categorias{ 
+    padding: 10px; 
+    }
 
   /* Contenido */
-  .productosaleatorios{ width: 100%; }
-  .aleatorio h1{ margin: 12px 0; padding: 10px; font-size: 20px; }
+  .productosaleatorios{ 
+    width: 100%; 
+    }
+  .aleatorio h1{ 
+    margin: 12px 0; 
+    padding: 10px; 
+    font-size: 20px; 
+    }
 
   /* Grilla de productos: 2 por fila */
-  .velasIndex1{ justify-content: space-between; }
+  .velasIndex1{ 
+    justify-content: space-between; 
+    }
   .velas{
     width: 48%;
     margin-bottom: 10px;
     padding: 10px;
   }
   .velas img{
-    display:block;
-    width:100%;
-    height:auto;        
-    aspect-ratio: 4/3;  
-    object-fit: cover;  
+    display: block;
+    width: 100%;
+    height: auto;        
   }
-  .velas p{ font-size: 13px; }
-  .velas a{ font-size: 13px; padding: 6px 10px; }
+  .velas p{ 
+    font-size: 13px; 
+  }
+  .velas a{ 
+    font-size: 13px; 
+    padding: 6px 10px; 
+  }
 
   /* Footer */
-  .footer1{ padding: 10px; }
-  .mapa{ width: 100%; height: 160px; }
+  .footer1{ 
+    padding: 10px; 
+    }
+  .mapa{ 
+    width: 100%; 
+    height: 160px; 
+    }
 }
 
 
