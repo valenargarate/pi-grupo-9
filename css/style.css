@@ -550,7 +550,49 @@ footer{
     width: 100%;
     margin: 0;
 }
+
+/* Main */
+  .main{
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+  }
+
+  /* Aside */
+  .aside{
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .aside h2{ margin: 12px; }
+  .aside ul{ margin: 8px 12px 12px; }
+  .categorias{ padding: 10px; }
+
+  /* Contenido */
+  .productosaleatorios{ width: 100%; }
+  .aleatorio h1{ margin: 12px 0; padding: 10px; font-size: 20px; }
+
+  /* Grilla de productos: 2 por fila */
+  .velasIndex1{ justify-content: space-between; }
+  .velas{
+    width: 48%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .velas img{
+    display:block;
+    width:100%;
+    height:auto;        
+    aspect-ratio: 4/3;  
+    object-fit: cover;  
+  }
+  .velas p{ font-size: 13px; }
+  .velas a{ font-size: 13px; padding: 6px 10px; }
+
+  /* Footer */
+  .footer1{ padding: 10px; }
+  .mapa{ width: 100%; height: 160px; }
 }
+
 
 
 
