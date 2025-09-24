@@ -575,7 +575,7 @@ footer{
     padding: 10px; 
     }
 
-  /* Contenido */
+  /* productos */
   .productosaleatorios{ 
     width: 100%; 
     }
@@ -585,7 +585,7 @@ footer{
     font-size: 20px; 
     }
 
-  /* Grilla de productos: 2 por fila */
+  
   .velasIndex1{ 
     justify-content: space-between; 
     }
