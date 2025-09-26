@@ -1,409 +1,408 @@
 * {
-    font-family: 'Playfair Display', serif;
-    box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
 }
 
 /* header */
 body{
-   background-color: #e8ded1;
-   max-width: 100%;
+  background-color: #e8ded1;
+  max-width: 100%;
 }
 a, ul{
-   list-style: none;
-   text-decoration: none;
-   color: black;
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }
 
 
 .topbar{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 10px 20px;
-   background-color: #BFAC93;
-   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #BFAC93;
+  width: 100%;
 }
 
 
 .logo{
-   border-radius: 180px;
-   display: block;
-   margin: 0 auto;
-   width: 80px;  
-   height: auto;
+  border-radius: 180px;
+  display: block;
+  margin: 0 auto;
+  width: 80px;  
+  height: auto;
 }
 
 
 .logo1{
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 
 .menu{
-   display: flex;
-   list-style: none;
-   margin: 0px;
-   padding: 0px;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 
 .menulyr{
-   display: flex;
-   justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 .menulyr, .menu li{
-   margin-left: 15px;
+  margin-left: 15px;
 }
 
 
 .buscador{
-   display: flex;
-   justify-content: center;
-   width: 420px;
+  display: flex;
+  justify-content: center;
+  width: 420px;
 }
 
 
 .searchinput{
-   padding: 6px 10px;
-   border-radius: 10px;
-   border: solid 1px #8A785E;
-   width: 300px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: solid 1px #8A785E;
+  width: 300px;
 }
 .searchbutton{
-   padding: 6px 15px;
-   border: none;
-   background-color: #5a4630;
-   color: white;
-   border-radius: 20px;
-   width: 80px;
+  padding: 6px 15px;
+  border: none;
+  background-color: #5a4630;
+  color: white;
+  border-radius: 20px;
+  width: 80px;
 }
 
 
 .search{
-   display: flex;
-   width: 100%;
-   justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 
 /* footer */
 footer{                   
-    width: 100%;       
-    background: #BFAC93; 
-    text-align: center; 
-    padding: 10px;
+  width: 100%;       
+  background: #BFAC93; 
+  text-align: center; 
+  padding: 10px;
 }
 
 .footer1{
-    max-width: 100%;
-    padding: 15px 15px;
-    background: #BFAC93;
-    color: white;
-    text-align: center;
-    border-radius: 16px;
+  max-width: 100%;
+  padding: 15px 15px;
+  background: #BFAC93;
+  color: white;
+  text-align: center;
+  border-radius: 16px;
 }
 
 .textofooter1{
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .textofooter2{
-    color: white;
-    font-weight: lighter;
-    margin-bottom: 5px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 5px;
 }
 
 .mapa{
-    width: 100%;
-    height: 100px;
-    border-color: #5a4630;
-    
+  width: 100%;
+  height: 100px;
+  border-color: #5a4630;
 }
 
 .titulomapa{
-    color: white;
-    margin-top: 5px;
+  color: white;
+  margin-top: 5px;
 }
 
 /* form registro y Log In*/
 .form{
-    background-image: url(../IMG/foto\ BANNER.jpg);
+  background-image: url(../IMG/foto\ BANNER.jpg);
 }
 
 .formEspacio{
-    border-radius: 3px;
-    border: 1px solid #5a4630;
-    width: 100%;
-    padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #5a4630;
+  width: 100%;
+  padding: 5px;
 }
 .form-registro, .form-login{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 60px 0px 60px 0px;
-    padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0px 60px 0px;
+  padding: 20px;
 }
 .tituloregistro, .titulologin{
-    text-align: center;
+  text-align: center;
 }
 
 .form-ingreso{
-    background-color: #BFAC93;
-    padding: 30px;
-    border: 1px solid #5a4630;
-    border-radius: 5px;
-    width: 300px;
+  background-color: #BFAC93;
+  padding: 30px;
+  border: 1px solid #5a4630;
+  border-radius: 5px;
+  width: 300px;
 }
 
 .botonregistro, .botoningresar{
-    background-color: #8A785E;
-    border: none;
-    padding: 5px;
+  background-color: #8A785E;
+  border: none;
+  padding: 5px;
 }
 
 .btn{
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* aside*/
 .aside{
-    width: 15%;
-    border: 1px solid #BFAC93;
-    border-radius: 10px;
-    margin: 20px;
+  width: 15%;
+  border: 1px solid #BFAC93;
+  border-radius: 10px;
+  margin: 20px;
 }
 .aside h2{
-    margin: 20px;
+  margin: 20px;
 }
 
 .aside ul{
-    list-style: none;
-    padding: 0px;
-    margin: 20px;
+  list-style: none;
+  padding: 0px;
+  margin: 20px;
 }
 
 .categorias{
-    padding: 15px;
+  padding: 15px;
 }
 
 /* productos index */
 
 .main{
-    display: flex;
-    align-items: flex-start;   
-    flex-wrap: nowrap;
-    padding: 15px;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: flex-start;   
+  flex-wrap: nowrap;
+  padding: 15px;
+  justify-content: space-evenly;
 }
 .productosaleatorios{
-    width: 80%;
+  width: 80%;
 }
 .aleatorio h1, .destacados h1{
-    margin: 20px;
-    border: 1px solid #BFAC93;
-    background-color: #BFAC93;
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px;
+  margin: 20px;
+  border: 1px solid #BFAC93;
+  background-color: #BFAC93;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
 }
 
 
 .velasIndex1{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    width: 100%;
-    justify-content: space-around;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .velas{
-    border: 1px solid #BFAC93;
-    border-radius: 10px;
-    padding: 14px;
-    background: #ece8e2;
-    width: 17%;
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
+  border: 1px solid #BFAC93;
+  border-radius: 10px;
+  padding: 14px;
+  background: #ece8e2;
+  width: 17%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 
 }
 
 .velas img{
-    width: 100%;
-    border-radius: 3px;
+  width: 100%;
+  border-radius: 3px;
 }
 
 .velas div{
-    margin-top: auto;
-    font-weight: bold;
-    text-align: center;
-    color: #8A785E;
+  margin-top: auto;
+  font-weight: bold;
+  text-align: center;
+  color: #8A785E;
 }
 
 .velas h4{
-    text-align: center;
-    color: #8A785E;
+  text-align: center;
+  color: #8A785E;
 }
 
 .velas p{
-    text-align: center;
+  text-align: center;
 }
 
 .velas a{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 12px;
-    background: #d3c0a6;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 14px;
-    text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #d3c0a6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
 }
 
 
 
 
 .velasIndex2{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    width: 100%;
-    justify-content: space-around;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .velas2{
-    border: 1px solid #BFAC93;
-    border-radius: 10px;
-    padding: 14px;
-    background: #ece8e2;
-    width: 30%;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
+  border: 1px solid #BFAC93;
+  border-radius: 10px;
+  padding: 14px;
+  background: #ece8e2;
+  width: 30%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
 
 }
 
 .velas2 img{
-    width: 100%;
-    height: 360px;
-    border-radius: 3px;
+  width: 100%;
+  height: 360px;
+  border-radius: 3px;
 }
 
 .velas2 div{
-    margin-top: auto;
-    font-weight: bold;
-    text-align: center;
-    color: #8A785E;
+  margin-top: auto;
+  font-weight: bold;
+  text-align: center;
+  color: #8A785E;
 }
 
 .velas2 h4{
-    text-align: center;
-    color: #8A785E;
+  text-align: center;
+  color: #8A785E;
 }
 
 .velas2 p{
-    text-align: center;
+  text-align: center;
 }
 
 .velas2 a{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 12px;
-    background: #d3c0a6;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 14px;
-    text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #d3c0a6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
 }
 
 /* producto */
 .producto{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 165px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 165px;
 }
 .velaalma{
-    display: flex;
-    align-items: flex-start;
-    border: 1px solid #BFAC93;
-    border-radius: 12px;
-    background: #f3ece3;        
-    padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #BFAC93;
+  border-radius: 12px;
+  background: #f3ece3;        
+  padding: 16px;
 
 }
 .velaalma img{
-    max-width: 450px; 
-    border-radius: 8px;
-    justify-content: center;
+  max-width: 450px; 
+  border-radius: 8px;
+  justify-content: center;
 }
 .info{
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .valor{
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .velaalma .info ul.tags li {
-    display: inline-block;
-    list-style: none;
-    padding: 4px;
-    margin: 0;
-    background-color:#BFAC93;
-    border-radius: 12px; 
+  display: inline-block;
+  list-style: none;
+  padding: 4px;
+  margin: 0px;
+  background-color:#BFAC93;
+  border-radius: 12px; 
 }
 
 .tituloproductoALMA{
-    text-align: center;
+  text-align: center;
 }
 
 .precioALMA{
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .stockALMA{
-    text-align: center;
+  text-align: center;
 }
 
 .reviews{
-    display: block; 
-    border: 1px solid #BFAC93;
-    border-radius: 12px;
-    background: #f3ece3;        
-    padding: 16px;
-    margin-top: 20px; 
-    width: 100%; 
-    box-sizing: border-box;
+  display: block; 
+  border: 1px solid #BFAC93;
+  border-radius: 12px;
+  background-color: #f3ece3;        
+  padding: 16px;
+  margin-top: 20px; 
+  width: 100%; 
+  box-sizing: border-box;
 }
 
 .fecha{
-    color: hsla(0, 0%, 0%, 0.5);
-    text-align: end;
-    font-size: small;
+  color: hsla(0, 0%, 0%, 0.5);
+  text-align: end;
+  font-size: small;
 }
 
 .opinion{
-    font-style: italic;
+  font-style: italic;
 }
 
 .estrellas{
-    color: gold;
+  color: gold;
 }
 
 .botoncomentario, .boxcomentario{
-    border-radius: 20px;
-    border: none;
+  border-radius: 20px;
+  border: none;
 }
 
 .botoncomentario{
-    background-color: #d3c0a6;
+  background-color: #d3c0a6;
 }
 
 /* telefono 420px */
@@ -424,39 +423,39 @@ footer{
   }
   .logo1 .menu{ 
     margin: 6px 0 0 0; 
-    }
+  }
   .logo1 .menu li{ 
     margin: 0 8px; 
-    }
+  }
 
   /* Buscador */
   .buscador{ 
     width: 100%; 
     margin: 8px 0; 
-    }
+  }
   .search{ 
     width: 92%; 
     margin: 0 auto; 
-    }
+  }
   .searchinput{ 
     width: 100%; 
-    }
+  }
 
   .searchbutton{ 
     width: auto; 
     padding: 8px 12px; 
-    }
+  }
 
   /* Login/Registro abajo del header */
   .menulyr{ 
     margin-top: 6px; 
-    }
+  }
   .menulyr .menu{ 
     justify-content: center; 
-    }
+  }
   .menulyr .menu li{ 
     margin: 0 8px; 
-    }
+  }
 
   /* Listado de productos */
   .productosaleatorios{ 
@@ -471,7 +470,7 @@ footer{
 
   .velasIndex1{ 
     justify-content: space-between; 
-    }
+  }
   .velas{
     width: 48%;
     margin-bottom: 10px;          
@@ -481,81 +480,81 @@ footer{
   .velas img{ 
     width: 100%; 
     height: auto; 
-    }
+  }
   .velas p{ 
     font-size: 13px;
-    }
+  }
   .destacados{ 
     padding: 0 10px; 
-    }
+  }
 
   .velasIndex2{ 
     display: block; 
     padding: 0;
-    }
+  }
 
   .velas2{
     width: 100%;
     margin: 10px 0;
     padding: 10px;
-    }
+  }
 
   /* Imagen */
   .velas2 img{
     width: 100%;
     height: auto;          
     border-radius: 3px;
-    }
+  }
 
   /* producto*/
-    .producto{
+  .producto{
     padding: 10px 14px;
-    }
+  }
 
-    .velaalma{
+  .velaalma{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12px;
-    }
+  }
 
-    .velaalma img{
+  .velaalma img{
     max-width: 450px;
     border-radius: 8px;
     justify-content: center;
     height: auto;
     width: 100%;
 
-    }
+  }
 
-   .info{
+  .info{
     margin-left: 0;
     width: 100%;
-    }
-   .tituloproductoALMA{
-        font-size: 20px;
-    }
-   .precioALMA{
-        font-size: 32px;
-    }
-   .reviews{
+  }
+  .tituloproductoALMA{
+    font-size: 20px;
+  }
+  .precioALMA{
+    font-size: 32px;
+  }
+  .reviews{
     padding: 12px;
-    }
-   .review-form{
+  }
+  .review-form{
     display: flex;
     flex-direction: column;
-    }
-   .boxcomentario{
+  }
+  .boxcomentario{
     width: 100%;
     margin: 0 0px 0;
   }
-   .botoncomentario{
+  .botoncomentario{
     width: 100%;
     margin: 0;
-    }
+  }
 
   /* Main */
-   .main{
+  .main{
     flex-direction: column;
     padding: 10px;
   }
@@ -567,28 +566,28 @@ footer{
   }
   .aside h2{ 
     margin: 12px; 
-    }
+  }
   .aside ul{ 
     margin: 8px 12px 12px; 
-    }
+  }
   .categorias{ 
     padding: 10px; 
-    }
+  }
 
   /* productos */
   .productosaleatorios{ 
     width: 100%; 
-    }
+  }
   .aleatorio h1{ 
     margin: 12px 0; 
     padding: 10px; 
     font-size: 20px; 
-    }
+  }
 
   
   .velasIndex1{ 
     justify-content: space-between; 
-    }
+  }
   .velas{
     width: 48%;
     margin-bottom: 10px;
@@ -610,11 +609,11 @@ footer{
   /* Footer */
   .footer1{ 
     padding: 10px; 
-    }
+  }
   .mapa{ 
     width: 100%; 
     height: 160px; 
-    }
+  }
 }
 
 
