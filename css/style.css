@@ -48,11 +48,11 @@ a, ul{
 }
 
 
-.menulyr{
+.menuLyr{
   display: flex;
   justify-content: space-evenly;
 }
-.menulyr, .menu li{
+.menuLyr, .menu li{
   margin-left: 15px;
 }
 
@@ -64,13 +64,13 @@ a, ul{
 }
 
 
-.searchinput{
+.searchInput{
   padding: 6px 10px;
   border-radius: 10px;
   border: solid 1px #8A785E;
   width: 300px;
 }
-.searchbutton{
+.searchButton{
   padding: 6px 15px;
   border: none;
   background-color: #5a4630;
@@ -104,12 +104,12 @@ footer{
   border-radius: 16px;
 }
 
-.textofooter1{
+.textoFooter1{
   color: white;
   font-weight: bold;
 }
 
-.textofooter2{
+.textoFooter2{
   color: white;
   font-weight: lighter;
   margin-bottom: 5px;
@@ -121,7 +121,7 @@ footer{
   border-color: #5a4630;
 }
 
-.titulomapa{
+.tituloMapa{
   color: white;
   margin-top: 5px;
 }
@@ -134,17 +134,17 @@ footer{
   width: 100%;
   padding: 5px;
 }
-.form-registro, .form-login{
+.formRegistro, .formLogin{
   display: flex;
   justify-content: space-evenly;
   margin: 60px 0px 60px 0px;
   padding: 20px;
 }
-.tituloregistro, .titulologin{
+.tituloRegistro, .tituloLogin{
   text-align: center;
 }
 
-.form-ingreso{
+.formIngreso{
   background-color: #BFAC93;
   padding: 30px;
   border: 1px solid #5a4630;
@@ -152,7 +152,7 @@ footer{
   width: 300px;
 }
 
-.botonregistro, .botoningresar{
+.botonRegistro, .botonIngresar{
   background-color: #8A785E;
   border: none;
   padding: 5px;
@@ -323,7 +323,7 @@ footer{
   flex-direction: column;
   padding: 10px 165px;
 }
-.velaalma{
+.velaAlma{
   display: flex;
   align-items: flex-start;
   border: 1px solid #BFAC93;
@@ -332,7 +332,7 @@ footer{
   padding: 16px;
 
 }
-.velaalma img{
+.velaAlma img{
   max-width: 450px; 
   border-radius: 8px;
   justify-content: center;
@@ -345,7 +345,7 @@ footer{
   font-weight: bold;
 }
 
-.velaalma .info ul.tags li {
+.info ul, .tags li {
   display: inline-block;
   list-style: none;
   padding: 4px;
@@ -354,17 +354,17 @@ footer{
   border-radius: 12px; 
 }
 
-.tituloproductoALMA{
+.tituloProductoAlma{
   text-align: center;
 }
 
-.precioALMA{
+.precioAlma{
   text-align: center;
   font-weight: bold;
   font-size: 50px;
 }
 
-.stockALMA{
+.stockAlma{
   text-align: center;
 }
 
@@ -393,19 +393,19 @@ footer{
   color: gold;
 }
 
-.botoncomentario, .boxcomentario{
+.botonComentario, .boxComentario{
   border-radius: 20px;
   border: none;
 }
 
-.botoncomentario{
+.botonComentario{
   background-color: #d3c0a6;
 }
 
 /* telefono 420px */
 @media (max-width: 420px){
 
-  /* Header */
+  /* header */
   .topBar{
     flex-direction: column;
     align-items: center;
@@ -419,48 +419,48 @@ footer{
     align-items: center; 
   }
   .logo1 .menu{ 
-    margin: 6px 0 0 0; 
+    margin-top: 6px; 
   }
   .logo1 .menu li{ 
-    margin: 0 8px; 
+    margin: 0px 8px; 
   }
 
-  /* Buscador */
+  /* buscador */
   .buscador{ 
     width: 100%; 
-    margin: 8px 0; 
+    margin: 8px 0px; 
   }
   .search{ 
     width: 92%; 
-    margin: 0 auto; 
+    margin: 0px 15px; 
   }
-  .searchinput{ 
+  .searchInput{ 
     width: 100%; 
   }
 
-  .searchbutton{ 
-    width: auto; 
+  .searchButton{ 
+    width: 80px; 
     padding: 8px 12px; 
   }
 
-  /* Login/Registro abajo del header */
-  .menulyr{ 
+  /* login/registro */
+  .menuLyr{ 
     margin-top: 6px; 
   }
-  .menulyr .menu{ 
+  .menuLyr .menu{ 
     justify-content: center; 
   }
-  .menulyr .menu li{ 
-    margin: 0 8px; 
+  .menuLyr .menu li{ 
+    margin: 0px 8px; 
   }
 
-  /* Listado de productos */
+  /* productos */
   .productosAleatorios{ 
     width: 100%; 
-    }
+  }
 
   .aleatorio h1,.destacados h1{
-    margin: 12px 0;
+    margin: 12px 0px;
     padding: 10px;
     font-size: 20px;
   }
@@ -482,21 +482,20 @@ footer{
     font-size: 13px;
   }
   .destacados{ 
-    padding: 0 10px; 
+    padding: 0px 10px; 
   }
 
   .velasIndex2{ 
     display: block; 
-    padding: 0;
+    padding: 0px;
   }
 
   .velas2{
     width: 100%;
-    margin: 10px 0;
+    margin: 10px 0px;
     padding: 10px;
   }
 
-  /* Imagen */
   .velas2 img{
     width: 100%;
     height: auto;          
@@ -508,46 +507,43 @@ footer{
     padding: 10px 14px;
   }
 
-  .velaalma{
+  .velaAlma{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12px;
   }
 
-  .velaalma img{
+  .velaAlma img{
     max-width: 450px;
     border-radius: 8px;
-    justify-content: center;
-    height: auto;
     width: 100%;
-
   }
 
   .info{
-    margin-left: 0;
+    margin-left: 0px;
     width: 100%;
   }
-  .tituloproductoALMA{
+  .tituloProductoAlma{
     font-size: 20px;
   }
-  .precioALMA{
+  .precioAlma{
     font-size: 32px;
   }
   .reviews{
     padding: 12px;
   }
-  .review-form{
+  .reviewForm{
     display: flex;
     flex-direction: column;
   }
-  .boxcomentario{
+  .boxComentario{
     width: 100%;
-    margin: 0 0px 0;
+    margin: 0px;
   }
-  .botoncomentario{
+  .botonComentario{
     width: 100%;
-    margin: 0;
+    margin: 0px;
   }
 
   /* Main */
@@ -556,10 +552,10 @@ footer{
     padding: 10px;
   }
 
-  /* Aside */
+  /* aside */
   .aside{
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0px 0px 10px 0px;
   }
   .aside h2{ 
     margin: 12px; 
@@ -576,14 +572,13 @@ footer{
     width: 100%; 
   }
   .aleatorio h1{ 
-    margin: 12px 0; 
+    margin: 12px 0px; 
     padding: 10px; 
     font-size: 20px; 
   }
 
-  
   .velasIndex1{ 
-    justify-content: space-between; 
+    justify-content: space-around; 
   }
   .velas{
     width: 48%;
@@ -597,6 +592,7 @@ footer{
   }
   .velas p{ 
     font-size: 13px; 
+    margin-top: 0px;
   }
   .velas a{ 
     font-size: 13px; 
