@@ -15,7 +15,7 @@ a, ul{
 }
 
 
-.topbar{
+.topBar{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,9 +127,6 @@ footer{
 }
 
 /* form registro y Log In*/
-.form{
-  background-image: url(../IMG/foto\ BANNER.jpg);
-}
 
 .formEspacio{
   border-radius: 3px;
@@ -195,7 +192,7 @@ footer{
   padding: 15px;
   justify-content: space-evenly;
 }
-.productosaleatorios{
+.productosAleatorios{
   width: 80%;
 }
 .aleatorio h1, .destacados h1{
@@ -409,7 +406,7 @@ footer{
 @media (max-width: 420px){
 
   /* Header */
-  .topbar{
+  .topBar{
     flex-direction: column;
     align-items: center;
     padding: 10px;
@@ -458,7 +455,7 @@ footer{
   }
 
   /* Listado de productos */
-  .productosaleatorios{ 
+  .productosAleatorios{ 
     width: 100%; 
     }
 
@@ -575,7 +572,7 @@ footer{
   }
 
   /* productos */
-  .productosaleatorios{ 
+  .productosAleatorios{ 
     width: 100%; 
   }
   .aleatorio h1{ 
