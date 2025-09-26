@@ -345,11 +345,16 @@ footer{
   font-weight: bold;
 }
 
-.info ul, .tags li {
-  display: inline-block;
+.info ul.tags {
+  display: flex;
   list-style: none;
-  padding: 4px;
-  margin: 0px;
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+.info ul.tags li {
+  padding: 4px 10px;
+  margin-right: 12px;
   background-color:#BFAC93;
   border-radius: 12px; 
 }
