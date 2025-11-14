@@ -23,9 +23,10 @@
        
 
        <div class="buscador">
-           <form class="search" action="./js/search-results.js" method="get">
-               <input class="searchInput" type="text" name="resultados" id="" placeholder="Buscar productos...">
+           <form class="search" id ="searchForm" action="./search-results.html" method="get">
+               <input class="searchInput" type="text" name="resultados" id="searchInput" placeholder="Buscar productos...">
                <button class="searchButton" type="submit">Buscar</button>
+               <p id="error"></p>
            </form>
        </div>  
 
@@ -279,6 +280,6 @@
     </footer>
 
     <script src="./js/index.js"></script>
-    
+    <script src="./js/validacion.js"></script>
 </body>
 </html>

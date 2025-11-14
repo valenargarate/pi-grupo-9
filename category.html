@@ -9,21 +9,24 @@
 
 <body>
 
-    <header class="topBar"> 
+        <header class="topBar"> 
+       
+
         <nav class="logo1">
             <a href="./index.html"><img class="logo" src="./img/fotos velas/logo2.png" alt="logo"></a>
             <ul class="menu">
                 <li><a class="home" href="./index.html">HOME</a></li>
                 <li><a href="./category.html">CATEGORÍAS</a></li>
             </ul>
-        </nav>
+         </nav>
 
-
+       
 
        <div class="buscador">
-           <form class="search" action="./resultadosbusqueda.html" method="get">
-               <input class="searchInput" type="text" name="resultados" id="" placeholder="Buscar productos...">
+           <form class="search" id ="searchForm" action="./search-results.html" method="get">
+               <input class="searchInput" type="text" name="resultados" id="searchInput" placeholder="Buscar productos...">
                <button class="searchButton" type="submit">Buscar</button>
+               <p id="error"></p>
            </form>
        </div>  
 
@@ -131,5 +134,6 @@
     </footer>
 
     <script src="./js/category.js"></script>
+    <script src="./js/validacion.js"></script>
 </body>
 </html>
