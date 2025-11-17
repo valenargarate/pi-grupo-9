@@ -37,5 +37,5 @@ form.addEventListener("submit", function(e) {
   localStorage.setItem("userData", userString);
 
   this.submit();
-  
+
 });
