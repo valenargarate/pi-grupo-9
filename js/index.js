@@ -12,7 +12,7 @@ function cargarProductosGroceries() {
             const lista = document.querySelector(".velasIndex1");
             let html = "";
 
-            //primeros 10 elementos
+            //primeros 10 elementos (groceries)
 
             for (let i = 0; i < 10; i++) {
                 const p = productos[i];
@@ -32,8 +32,6 @@ function cargarProductosGroceries() {
 
 
 
-
-
 const apiProductosCocina = "https://dummyjson.com/products/category/kitchen-accessories";
 
 function cargarProductosCocina() {
@@ -48,7 +46,7 @@ function cargarProductosCocina() {
             const lista = document.querySelector(".velasIndex2");
             let html = "";
 
-            //primeros 10 elementos
+            //10 elementos (kitchen accesories)
 
             for (let i = 0; i < 10; i++) {
                 const p = productos[i];
@@ -66,7 +64,7 @@ function cargarProductosCocina() {
         })
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
   cargarProductosCocina();
   cargarProductosGroceries();
 });
