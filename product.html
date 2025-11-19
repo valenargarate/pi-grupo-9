@@ -44,57 +44,49 @@
 
     <main class="producto">
         <article class="velaAlma">
-            <img src="./img/fotos velas/velaAlma.jpg" alt="Vela Alma">
+            <img id="fotoProducto" src="" alt="Foto del producto">
 
             <div class="info">
-                <h1 class="tituloProductoAlma">Vela Alma</h1>
-
-                <p><span class="valor">Marca: </span>AURA Velas</p>
-                <br>
-                <p><span class="valor">Categoria: </span>Aromáticas / Minimalistas</p>
-                <br>
-                <p><span class="valor">Descripción: </span> La Vela Alma es un producto artesanal elaborado con cera de soja 100% natural y mecha de madera que emite un delicado crepitar al encenderse. Su diseño minimalista en frasco de vidrio con tapa de corcho aporta elegancia y sostenibilidad, ya que el envase puede reutilizarse. </p>
-                <br>
-
-                <ul class="tags">
-                    <li> x mecha de madera</li>
-                    <li> x vegano</li>
-                    <li> x minimalista</li>
-                </ul>
+                <h1 id="nombreDelProducto" class="tituloProductoAlma"></h1>
 
                 <br>
 
-                <div class="precioAlma">$ 4500</div>
-                <p class="stockAlma"><span class="valor"> ¡Última disponible! </span></p></p>
+                <p>
+                    <span class="valor">Categoria: </span>
+                    <a id="categoriaDelProducto" href="#"></a>
+                
+                </p>
+
+                <br>
+
+                <p>
+                    <span class="valor">Descripción: </span>
+                    <span id="descripcionDelProducto"></span>
+                
+                </p>
+
+                <br>
+
+                <ul class="tags" id="listaDeTags"></ul>
+
+                <br>
+
+                <div class="precioAlma" id="precioDelProducto"></div>
+
+                <p class="stockAlma">
+                    <span class="valor" id="stockDelProducto"></span>
+                </p>
 
             </div>
         </article>
 
         <section class="reviews">
+
             <h2>Reviews</h2>
-            <div class="review">
-                <div class="estrellas">★★★★★</div>
-                <p class="opinion">"Aroma delicado y diseño elegante. Me encanta."</p>
-                <p class="fecha">17/09/2025 - Marina. P</p>
-            </div>
 
-            <div class="review">
-                <div class="estrellas">★★★★★</div>
-                <p class="opinion">"Minimalista y natural, perfecta para cualquier espacio."</p>
-                <p class="fecha">24/06/2025 - Graciela. F</p>
-            </div>
-
-            <div class="review">
-                <div class="estrellas"> ★★★☆☆ </div>
-                <p class="opinion">"Muy bonita y relajante, aunque me gustaría que la mecha durara un poquito más."</p>
-                <p class="fecha">24/02/2025 - Lucrecia. R</p>
+            <div id="review">
                 
             </div>
-
-            <form class="review-form">
-                <input class="boxComentario" type="text" name="comentario" placeholder="Déjanos tu comentario...">
-                <button class="botonComentario" type="submit">Enviar</button>
-            </form>
 
             
         </section>
@@ -113,9 +105,9 @@
 
     </footer>
 
-    <script src="./js/login.js"></script>
+    <script src="./js/product.js"></script>
     <script src="./js/validacion.js"></script>
-    <script src="./js/saludo.js"></script>
     <script src="./js/logout.js"></script>
+    
 </body>
 </html>
