@@ -3,7 +3,7 @@ const queryStringObj = new URLSearchParams(queryString);
 
 let categoriaId = queryStringObj.get('id');
 
-if (categoriaId === null) { 
+if (categoriaId === null) {
     categoriaId = 'beauty';
 }
 
@@ -14,23 +14,23 @@ if (tituloCategoria !== null) {
     tituloCategoria.innerText = 'Categoría: ' + categoriaId;
 }
 
-const url = `https://dummyjson.com/products/category/${categoriaId}`;
+const url = 'https://dummyjson.com/products/category/' + categoriaId;
 
 fetch(url)
     .then(function (response) {
         return response.json();
     })
     .then(function (data) {
+
         const productos = data.products;
 
         listaProductos.innerHTML = '';
 
         let contenido = '';
 
-        let i = 0;                
-        while (i < productos.length) {   
+        for (let i = 0; i < productos.length; i++) {
 
-            const producto = productos[i];   
+            const producto = productos[i];
 
             const detalleHref = './product.html?id=' + producto.id;
 
@@ -42,8 +42,6 @@ fetch(url)
                     '<div>$ ' + producto.price + '</div>' +
                     '<a href="' + detalleHref + '">Ver detalle</a>' +
                 '</li>';
-
-            i++;   
         }
 
         listaProductos.innerHTML = contenido;
@@ -52,4 +50,3 @@ fetch(url)
         console.log('Error al cargar productos: ', error);
         listaProductos.innerHTML = '<li>No se pudieron cargar los productos de esta categoría.</li>';
     });
-

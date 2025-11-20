@@ -9,47 +9,42 @@ if (terminoBuscado === null) {
 
 const listaProductos = document.querySelector('.velasIndex1');
 const parrafoResultados = document.querySelector('.velap strong');
-const parrafoH = document.querySelector('.hint');
+const parrafoHint = document.querySelector('.hint');
 
 parrafoResultados.innerText = terminoBuscado;
 
 if (terminoBuscado.trim() === '') {
 
     listaProductos.innerHTML = '';
-
-    parrafoH.innerText = 'No ingresaste ningún término de búsqueda.';
-    parrafoH.style.display = 'block';
+    parrafoHint.innerText = 'No ingresaste ningún término de búsqueda.';
+    parrafoHint.style.display = 'block';
 
 } else {
 
     const url = 'https://dummyjson.com/products/search?q=' + terminoBuscado;
 
     fetch(url)
-        .then(function (response) {
+        .then(function(response){
             return response.json();
         })
-        .then(function (data) {
+        .then(function(data){
 
             const productos = data.products;
-
             listaProductos.innerHTML = '';
-
             let contenido = '';
 
             if (productos.length === 0) {
 
-                parrafoH.innerText = 'No encontramos resultados para "' + terminoBuscado + '"';
-                parrafoH.style.display = 'block';
+                parrafoHint.innerText = 'No encontramos resultados para "' + terminoBuscado + '"';
+                parrafoHint.style.display = 'block';
 
             } else {
+                
+                parrafoHint.style.display = 'none';
 
-                parrafoH.style.display = 'none';
-
-                let i = 0;
-                while (i < productos.length) {
+                for (let i = 0; i < productos.length; i++) {
 
                     const producto = productos[i];
-
                     const detalleHref = './product.html?id=' + producto.id;
 
                     contenido = contenido +
@@ -60,8 +55,6 @@ if (terminoBuscado.trim() === '') {
                             '<div>$ ' + producto.price + '</div>' +
                             '<a href="' + detalleHref + '">Ver detalle</a>' +
                         '</li>';
-
-                    i = i + 1;
                 }
 
                 listaProductos.innerHTML = contenido;
