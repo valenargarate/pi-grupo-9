@@ -3,7 +3,7 @@ let registro = document.querySelector(".formIngreso");
 registro.onsubmit = function (e) {
     e.preventDefault();  
 
-    let email = resgistro.email.value;
+    let email = registro.email.value;
     let password = registro.password.value;
     let password2 = registro.password2.value;
     let terminos = registro.terminos.checked;
