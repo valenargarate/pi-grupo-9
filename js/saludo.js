@@ -1,7 +1,6 @@
 let data = localStorage.getItem("userData");
 
 let saludo = document.querySelector(".saludo");
-let mensaje = document.querySelector(".mensaje");
 let lista = document.querySelector(".menuLyr .menu");
 
 if (data) {
@@ -10,10 +9,6 @@ if (data) {
 
     if (saludo) {
         saludo.innerText = `Bienvenido ${dataObj.email}`;
-    }
-
-    if (mensaje) {
-        mensaje.innerText = `Nos alegra tenerte!`;
     }
 
     if (lista) {
@@ -29,9 +24,6 @@ if (data) {
         saludo.innerText = "";
     }
 
-    if (mensaje) {
-        mensaje.innerText = "";
-    }
 
     if (lista) {
         lista.innerHTML = `

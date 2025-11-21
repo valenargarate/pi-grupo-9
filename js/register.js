@@ -8,40 +8,33 @@ registro.onsubmit = function (e) {
     let password2 = registro.password2.value;
     let terminos = registro.terminos.checked;
 
+    let msjDeError = document.querySelector("#registroError"); 
+    msjDeError.innerText = ""; 
+
     if (email === "") {
-        alert("El email es obligatorio.");
+        msjDeError.innerText = "El email es obligatorio.";
         return;
     }
 
     if (password === "") {
-        alert("La contraseña es obligatoria.");
+        msjDeError.innerText = "La contraseña es obligatoria.";
         return;
     }
 
     if (password.length < 6) {
-        alert("La contraseña debe tener al menos 6 caracteres.");
+        msjDeError.innerText = "La contraseña debe tener al menos 6 caracteres.";
         return;
     }
 
     if (password !== password2) {
-        alert("Las contraseñas no coinciden.");
+        msjDeError.innerText = "Las contraseñas no coinciden.";
         return;
     }
 
     if (!terminos) {
-        alert("Debes aceptar los términos y condiciones.");
+        msjDeError.innerText = "Debes aceptar los términos y condiciones.";
         return;
     }
 
-    
-    let userObjeto = {
-        email: email,
-        password: password
-    };
-
-    let userString = JSON.stringify(userObjeto);
-    localStorage.setItem("userData", userString);
-
-    alert("Registro exitoso. Ahora podés iniciar sesión.");
     location.href = "./login.html";
 };

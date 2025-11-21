@@ -13,7 +13,7 @@ const parrafoHint = document.querySelector('.hint');
 
 parrafoResultados.innerText = terminoBuscado;
 
-if (terminoBuscado.trim() === '') {
+if (terminoBuscado === '') {
 
     listaProductos.innerHTML = '';
     parrafoHint.innerText = 'No ingresaste ningún término de búsqueda.';
