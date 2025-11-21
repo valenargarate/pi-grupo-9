@@ -11,19 +11,16 @@ form.addEventListener("submit", function(e) {
 
     if (email === "") {
         mensajeDeError.innerText = ("El email es obligatorio."); 
-        alert("El email es obligatorio.");
         return; 
     }
 
     if (password === "") {
         mensajeDeError.innerText = ("La contraseña es obligatoria."); 
-        alert("La contraseña es obligatoria."); 
         return; 
     }
 
     if (password.length < 6){
         mensajeDeError.innerText = ("La contraseña debe tener como minimo 6 caracteres!");
-        alert("La contraseña debe tener como minimo 6 caracteres!");
         return;
     }
 
