@@ -1,12 +1,12 @@
-let form = document.querySelector(".formIngreso");
+let registro = document.querySelector(".formIngreso");
 
-form.onsubmit = function (e) {
+registro.onsubmit = function (e) {
     e.preventDefault();  
 
-    let email = form.email.value;
-    let password = form.password.value;
-    let password2 = form.password2.value;
-    let terminos = form.terminos.checked;
+    let email = resgistro.email.value;
+    let password = registro.password.value;
+    let password2 = registro.password2.value;
+    let terminos = registro.terminos.checked;
 
     if (email === "") {
         alert("El email es obligatorio.");
